@@ -250,3 +250,4 @@ for inicio in notas:
         contador+=1
 print("F - Quantidade de valores abaixo de sete: ",contador)
 print("Fim")
+#
