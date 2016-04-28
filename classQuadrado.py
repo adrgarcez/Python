@@ -1,3 +1,6 @@
+'''Crie uma classe que modele um quadrado, com um atributo lado e os métodos: mudar valor
+do lado, retornar valor do lado e calcular área.'''
+
 quadrado.py
 
 class Quadrado:
@@ -14,7 +17,7 @@ class Quadrado:
         return self.lado*self.lado
         
   
-///////////////////////////////////
+'''-----------------------------------------------------------------------------'''
 
 quadradoTeste.py 
 
