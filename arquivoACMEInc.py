@@ -59,7 +59,7 @@ total = media = 0
 with open ("usuarios.txt","r") as arquivo:
    valor = 0
    for linha in arquivo:
-      usuarios.append(linha.split())
+      usuarios.append(linha.split()) 
 
    for cadaUsuario in usuarios:
       cadaUsuario.insert(0,posicao)
