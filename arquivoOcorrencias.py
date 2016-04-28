@@ -8,7 +8,7 @@ Faça um script que:
 from collections import Counter
 
 def contaOcorrencia (file):
-    arquivo = open ('python.txt','r')
+    arquivo = open (file,'r')
     lista = []
     for linhas in arquivo.readlines():
         frase = linhas.split()
